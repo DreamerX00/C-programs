@@ -1,8 +1,9 @@
 #include<stdio.h>
 #include<conio.h>
-#include<string.h>
 int main()
 {
-    printf("hello world");
+    int x,y=5,z=5;
+    x = y==z;
+    printf("%d",x);
     return 0;
 }
